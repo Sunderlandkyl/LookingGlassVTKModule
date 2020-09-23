@@ -1,5 +1,3 @@
-message(STATUS "LookingGlass: Building as a Remote VTK module")
-
 list (APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR})
 
 set(classes
