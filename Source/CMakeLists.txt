@@ -29,7 +29,7 @@ endif()
 
 vtk_module_find_package(PACKAGE HoloPlayCore)
 vtk_module_link(VTK::RenderingLookingGlass
-    PUBLIC HoloPlayCore::HoloPlayCore)
+    PRIVATE HoloPlayCore::HoloPlayCore)
 if (APPLE)
   vtk_module_link(VTK::RenderingLookingGlass
     PRIVATE "-framework IOKit")

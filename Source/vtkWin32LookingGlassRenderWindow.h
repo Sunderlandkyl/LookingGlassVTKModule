@@ -23,6 +23,8 @@
 #include "vtkRenderingLookingGlassModule.h" // For export macro
 #include "vtkWin32OpenGLRenderWindow.h"
 
+#include <vector>
+
 class vtkLookingGlassInterface;
 
 class VTKRENDERINGLOOKINGGLASS_EXPORT vtkWin32LookingGlassRenderWindow : public vtkWin32OpenGLRenderWindow
